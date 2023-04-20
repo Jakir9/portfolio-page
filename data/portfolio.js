@@ -1,18 +1,18 @@
 const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
-  name: 'John Doe',
-  role: 'Software Engineer',
-  company: 'Acme Labs',
+  name: 'Jakir Ashraf',
+  role: 'Software Developer Bootcamper',
+  company: 'School of Code',
   description: [
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    `I am a driven software developer. I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. Let's connect and build something great! `,
   ],
-  resume: 'https://example.com',
+  resume: 'http://jakirashraf.me',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/jakirashraf',
+    github: 'https://github.com/Jakir9',
   },
-  greetingEmoji: '👋',
+  greetingEmoji: '👋🏽',
 }
 
 const projects = [
@@ -21,41 +21,67 @@ const projects = [
   // each element in the description array is a paragraph
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 1',
+    name: 'Weather App',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['JavaScript', 'HTML', 'CSS'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 2',
+    name: 'Mid Bootcamp Project',
     description: [
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['JavaScript', 'React'],
+    sourceCode: 'https://github.com/Jakir9/weatherApp',
+    livePreview: 'http://jakirashraf.me/weatherApp/main.html',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Pokemon App',
+    description: [
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    ],
+    stack: ['JavaScript', 'React'],
+    sourceCode: 'https://github.com/Jakir9/pokemonApi',
+    livePreview: 'http://jakirashraf.me/pokemonApi/index.html',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Final Project',
+    description: [
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    ],
+    stack: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'Express',
+      'PostgreSQL',
+    ],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 3',
+    name: 'Messaging App',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Client-Server messaging system created in Java. The server is multi-threaded and can handle multiple clients at once. The client can send and receive messages from the server. The server can also send messages to all clients at once. ',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Java'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
+
   {
     thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 4',
-    description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    ],
-    stack: ['SASS', 'TypeScript', 'React'],
+    name: 'Rock Paper Scissors',
+    description: ['Rock Paper Scissors game created using javascript'],
+    stack: ['Javascript'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -69,18 +95,20 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Node',
+  'Express',
+  'SQL',
+  'PostgreSQL',
+  'Python',
+  'Java',
   'Git',
-  'CI/CD',
   'Jest',
-  'Enzyme',
+  'Playwright',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johndoe@mail.com',
+  email: 'jakirashraf98@googlemail.com',
 }
 
 export { about, projects, skills, contact }
