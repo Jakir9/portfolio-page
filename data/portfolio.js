@@ -20,7 +20,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: '../images/weather.jpeg',
+    thumbnail: 'images/weather.jpeg',
     name: 'Weather App',
     description: [
       'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
@@ -30,7 +30,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    thumbnail: '../images/memory-master.png',
+    thumbnail: 'images/memory-master.png',
     name: 'Memory Master App',
     description: [
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
@@ -40,7 +40,7 @@ const projects = [
     livePreview: 'http://jakirashraf.me/weatherApp/main.html',
   },
   {
-    thumbnail: '../images/pokemon.png',
+    thumbnail: 'images/pokemon.png',
     name: 'Pokemon App',
     description: [
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
