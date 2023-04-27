@@ -107,8 +107,7 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'jakirashraf98@googlemail.com',
+  email: 'hello@jakirashraf.me',
 }
 
 export { about, projects, skills, contact }
