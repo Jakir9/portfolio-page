@@ -23,7 +23,7 @@ const projects = [
     thumbnail: 'images/weather.jpeg',
     name: 'Weather App',
     description: [
-      'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
+      `Individual project. Created a weather app using only JavaScript, able to find the users current location and being able to search any location. Used eventListeners to read user input. Fetched API data from OpenWeatherMap. Deployed webApp on Github pages. `,
     ],
     stack: ['JavaScript', 'HTML', 'CSS'],
     sourceCode: 'https://github.com',
@@ -33,7 +33,10 @@ const projects = [
     thumbnail: 'images/memory-master.png',
     name: 'Memory Master App',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      `Worked in an agile team to create an app to help students study and practice spaced-repetition. Created a Low and
+High-fidelity wire-frame. Managed our tasks using Trello Kanban board. Designed an MVP for our product. Collaborated
+in a team of 4 to build the web app in 5-days. Technologies used includes Git, Javascript, ReactJS MaterialUI for design.
+Presented our application to a panel of judges.`,
     ],
     stack: ['JavaScript', 'React'],
     sourceCode: 'https://github.com/Jakir9/weatherApp',
@@ -43,7 +46,7 @@ const projects = [
     thumbnail: 'images/pokemon.png',
     name: 'Pokemon App',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This app was created in a group hackathon to help users look up stats about their favourite pokemon characters. The app is built with React and uses the PokeAPI to fetch data. Built this web app in a Hackathon. Designed the web app using CSS.',
     ],
     stack: ['JavaScript', 'React'],
     sourceCode: 'https://github.com/Jakir9/pokemonApi',
@@ -52,9 +55,7 @@ const projects = [
   {
     thumbnail: 'images/placeholder-image.jpeg',
     name: 'Final Project',
-    description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    ],
+    description: ['add when completed'],
     stack: [
       'JavaScript',
       'TypeScript',

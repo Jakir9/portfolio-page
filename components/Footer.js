@@ -5,9 +5,7 @@ const Footer = () => (
       target='_blank'
       rel='noreferrer'
       className='link footer__link'
-    >
-      Created by Ike Ofoegbu
-    </a>
+    ></a>
   </footer>
 )
 
