@@ -20,7 +20,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: '../images/weather.jpeg',
     name: 'Weather App',
     description: [
       'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
@@ -30,8 +30,8 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Mid Bootcamp Project',
+    thumbnail: '../images/memory-master.png',
+    name: 'Memory Master App',
     description: [
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     ],
@@ -40,7 +40,7 @@ const projects = [
     livePreview: 'http://jakirashraf.me/weatherApp/main.html',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: '../images/pokemon.png',
     name: 'Pokemon App',
     description: [
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
@@ -63,25 +63,6 @@ const projects = [
       'Express',
       'PostgreSQL',
     ],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Messaging App',
-    description: [
-      'Client-Server messaging system created in Java. The server is multi-threaded and can handle multiple clients at once. The client can send and receive messages from the server. The server can also send messages to all clients at once. ',
-    ],
-    stack: ['Java'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-
-  {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Rock Paper Scissors',
-    description: ['Rock Paper Scissors game created using javascript'],
-    stack: ['Javascript'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
