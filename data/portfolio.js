@@ -39,8 +39,8 @@ in a team of 4 to build the web app in 5-days. Technologies used includes Git, J
 Presented our application to a panel of judges.`,
     ],
     stack: ['JavaScript', 'React'],
-    sourceCode: 'https://github.com/Jakir9/weatherApp',
-    livePreview: 'http://jakirashraf.me/weatherApp/main.html',
+    sourceCode: 'https://github.com/Jakir9/Memory-Master',
+    livePreview: 'https://agileavengers-memory-master.netlify.app',
   },
   {
     thumbnail: 'images/pokemon.png',
