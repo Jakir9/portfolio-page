@@ -20,42 +20,42 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/weather.jpeg',
+    thumbnail: 'images/placeholder-image.jpeg',
     name: 'Weather App',
     description: [
-      `Individual project. Created a weather app using only JavaScript, able to find the users current location and being able to search any location. Used eventListeners to read user input. Fetched API data from OpenWeatherMap. Deployed webApp on Github pages. `,
+      'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
     ],
     stack: ['JavaScript', 'HTML', 'CSS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Jakir9/weatherApp',
+    livePreview: 'https://jakir9.github.io/weatherApp/main.html',
   },
   {
-    thumbnail: 'images/memory-master.png',
-    name: 'Memory Master App',
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Memory Master',
     description: [
-      `Worked in an agile team to create an app to help students study and practice spaced-repetition. Created a Low and
-High-fidelity wire-frame. Managed our tasks using Trello Kanban board. Designed an MVP for our product. Collaborated
-in a team of 4 to build the web app in 5-days. Technologies used includes Git, Javascript, ReactJS MaterialUI for design.
-Presented our application to a panel of judges.`,
+      'Created Memory Master, an application designed to help students improve their learning and retention through the practice of spaced-repetition.',
     ],
-    stack: ['JavaScript', 'React'],
+    stack: ['React'],
     sourceCode: 'https://github.com/Jakir9/Memory-Master',
     livePreview: 'https://agileavengers-memory-master.netlify.app',
   },
   {
-    thumbnail: 'images/pokemon.png',
+    thumbnail: '../public/images/pokemon.png',
     name: 'Pokemon App',
     description: [
-      'This app was created in a group hackathon to help users look up stats about their favourite pokemon characters. The app is built with React and uses the PokeAPI to fetch data. Built this web app in a Hackathon. Designed the web app using CSS.',
+      'Pokemon Database library built using React. The app uses an open-source api to fetch data. The app is fully responsive and works on all devices.',
     ],
-    stack: ['JavaScript', 'React'],
+    stack: ['React', 'HTML', 'CSS'],
     sourceCode: 'https://github.com/Jakir9/Pokemon-PokeDex',
     livePreview: 'https://jakir9-pokemon-pokedex-app.netlify.app',
   },
+  ,
   // {
   //   thumbnail: 'images/placeholder-image.jpeg',
   //   name: 'Final Project',
-  //   description: ['add when completed'],
+  //   description: [
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   ],
   //   stack: [
   //     'JavaScript',
   //     'TypeScript',
@@ -66,6 +66,25 @@ Presented our application to a panel of judges.`,
   //   ],
   //   sourceCode: 'https://github.com',
   //   livePreview: 'https://github.com',
+  // },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Messaging App',
+    description: [
+      'Client-Server messaging App created in NodeJS. The server can handle multiple clients at once.',
+    ],
+    stack: ['NodeJS'],
+    sourceCode: 'https://github.com/Jakir9/RealTimeMessagingApp',
+    // livePreview: 'https://github.com',
+  },
+
+  // {
+  //   thumbnail: 'images/placeholder-image.jpeg',
+  //   name: 'Rock Paper Scissors',
+  //   description: ['Rock Paper Scissors game created using javascript'],
+  //   stack: ['Javascript'],
+  //   sourceCode: 'https://github.com',
+  //   // livePreview: 'https://github.com',
   // },
 ]
 
@@ -89,7 +108,8 @@ const skills = [
 ]
 
 const contact = {
-  email: 'hello@jakirashraf.me',
+  // email is optional - if left empty Contact section won't show up
+  email: 'jakir@jakirashraf.me',
 }
 
 export { about, projects, skills, contact }
