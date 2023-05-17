@@ -98,7 +98,6 @@ const skills = [
   'React',
   'Node',
   'Express',
-  'SQL',
   'PostgreSQL',
   'Python',
   'Java',
