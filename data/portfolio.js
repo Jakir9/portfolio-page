@@ -20,7 +20,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: '../public/images/weatherApp.png',
     name: 'Weather App',
     description: [
       'Built a weather app using an open-source api. Developed the app using vanilla JavaScript, HTML and CSS. The app is fully responsive and works on all devices.',
@@ -30,7 +30,7 @@ const projects = [
     livePreview: 'https://jakir9.github.io/weatherApp/main.html',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: '../public/images/memoryMaster.png',
     name: 'Memory Master',
     description: [
       'Created Memory Master, an application designed to help students improve their learning and retention through the practice of spaced-repetition.',
@@ -40,7 +40,7 @@ const projects = [
     livePreview: 'https://agileavengers-memory-master.netlify.app',
   },
   {
-    thumbnail: '../public/images/pokemon.png',
+    thumbnail: '../public/images/pokemonApp.png',
     name: 'Pokemon App',
     description: [
       'Pokemon Database library built using React. The app uses an open-source api to fetch data. The app is fully responsive and works on all devices.',
@@ -68,7 +68,7 @@ const projects = [
   //   livePreview: 'https://github.com',
   // },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
+    thumbnail: '../public/images/messageApp.png',
     name: 'Messaging App',
     description: [
       'Client-Server messaging App created in NodeJS. The server can handle multiple clients at once.',
