@@ -50,8 +50,8 @@ const About = () => {
         <div className='about__contact center'>
           {resume && (
             <a
-              href={resume}
-              target='https://www.linkedin.com/in/jakirashraf/overlay/1635526505868/single-media-viewer?type=DOCUMENT&profileId=ACoAADgedBkBEURrvahdHtENpBwQIS5wZtlwn7o&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdxcASxuCSsq7P6f9D%2FfQmQ%3D%3D'
+              href='https://www.linkedin.com/in/jakirashraf/overlay/1635526505868/single-media-viewer?type=DOCUMENT&profileId=ACoAADgedBkBEURrvahdHtENpBwQIS5wZtlwn7o&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdxcASxuCSsq7P6f9D%2FfQmQ%3D%3D'
+              target='_blank'
               rel='noreferrer'
             >
               <span type='button' className='btn btn--outline'>
@@ -65,7 +65,7 @@ const About = () => {
               {social.github && (
                 <a
                   href={social.github}
-                  target='https://github.com/jakir9'
+                  target='_blank'
                   rel='noreferrer'
                   aria-label='github'
                   className='link link--icon'
@@ -77,7 +77,7 @@ const About = () => {
               {social.linkedin && (
                 <a
                   href={social.linkedin}
-                  target='http://linkedin.com/in/jakirashraf/'
+                  target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
                   className='link link--icon'
