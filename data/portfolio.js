@@ -2,7 +2,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
   name: 'Jakir Ashraf',
-  role: 'Software Developer Bootcamper',
+  role: 'Full Stack Developer',
   company: 'School of Code',
   description: [
     `I am a driven software developer. I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. Let's connect and build something great! `,
