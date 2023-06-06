@@ -3,6 +3,7 @@ import Hyphenated from 'react-hyphen'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../data/portfolio'
+import { resolveModuleName } from 'typescript'
 
 const About = () => {
   const { name, role, company, description, resume, social, greetingEmoji } =
@@ -50,7 +51,7 @@ const About = () => {
         <div className='about__contact center'>
           {resume && (
             <a
-              href='https://www.linkedin.com/in/jakirashraf/details/featured/'
+              href={resume}
               target='_blank'
               rel='noreferrer'
             >
