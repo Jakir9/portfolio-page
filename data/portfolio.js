@@ -5,7 +5,8 @@ const about = {
   role: 'Full Stack Developer',
   //company: 'School of Code',
   description: [
-    `I am a driven software developer. I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. Currently learning NextJS and Python `,
+    ` I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. 
+     Currently learning NextJS and Python `,
   ],
   resume: 'http://jakirashraf.me',
   social: {
