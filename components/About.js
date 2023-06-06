@@ -50,7 +50,7 @@ const About = () => {
         <div className='about__contact center'>
           {resume && (
             <a
-              href='https://www.linkedin.com/in/jakirashraf/overlay/1635526505868/single-media-viewer?type=DOCUMENT&profileId=ACoAADgedBkBEURrvahdHtENpBwQIS5wZtlwn7o&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BdxcASxuCSsq7P6f9D%2FfQmQ%3D%3D'
+              href='https://www.linkedin.com/in/jakirashraf/details/featured/'
               target='_blank'
               rel='noreferrer'
             >
