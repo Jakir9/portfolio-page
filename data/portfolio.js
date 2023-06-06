@@ -8,7 +8,7 @@ const about = {
     ` I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. 
      Currently learning NextJS and Python `,
   ],
-  resume: `https://github.com/Jakir9/Jakir9/tree/main/cv`,
+  resume: `https://www.linkedin.com/in/jakirashraf/details/featured/`,
   social: {
     linkedin: 'https://linkedin.com/in/jakirashraf',
     github: 'https://github.com/Jakir9',
