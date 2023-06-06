@@ -3,9 +3,9 @@ const about = {
   // each element in the description array is a paragraph
   name: 'Jakir Ashraf',
   role: 'Full Stack Developer',
-  company: 'School of Code',
+  //company: 'School of Code',
   description: [
-    `I am a driven software developer. I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. Let's connect and build something great! `,
+    `I am a driven software developer. I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. Currently learning NextJS and Python `,
   ],
   resume: 'http://jakirashraf.me',
   social: {
