@@ -6,7 +6,7 @@ const about = {
   //company: 'School of Code',
   description: [
     ` I enjoy tackling complex problems with elegant solutions and aspire to create impactful products. 
-     Currently learning NextJS and Python `,
+     Currently learning NodeJS and TypeScript `,
   ],
   resume: `https://www.linkedin.com/in/jakirashraf/details/featured/`,
   social: {
@@ -50,7 +50,7 @@ const projects = [
     sourceCode: 'https://github.com/Jakir9/Pokemon-PokeDex',
     livePreview: 'https://jakir9-pokemon-pokedex-app.netlify.app',
   },
-  ,
+  // ,
   // {
   //   thumbnail: 'images/placeholder-image.jpeg',
   //   name: 'Final Project',
