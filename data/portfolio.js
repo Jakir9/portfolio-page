@@ -50,24 +50,22 @@ const projects = [
     sourceCode: 'https://github.com/Jakir9/Pokemon-PokeDex',
     livePreview: 'https://jakir9-pokemon-pokedex-app.netlify.app',
   },
-  // ,
-  // {
-  //   thumbnail: 'images/placeholder-image.jpeg',
-  //   name: 'Final Project',
-  //   description: [
-  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-  //   ],
-  //   stack: [
-  //     'JavaScript',
-  //     'TypeScript',
-  //     'React',
-  //     'Node',
-  //     'Express',
-  //     'PostgreSQL',
-  //   ],
-  //   sourceCode: 'https://github.com',
-  //   livePreview: 'https://github.com',
-  // },
+  
+  {
+    thumbnail: 'images/memorycompanion.jpeg',
+    name: 'Memory Companion',
+    description: [
+      `Many individuals suffering from dementia and other conditions struggle to retain memories, follow daily activities, and maintain independence due to memory loss. This user-friendly application provides a centralised platform for storing memories, visual and audio prompts, and daily activity reminders, tailored to the individual's objectives. This application supports multiple users, facilitating social care and improving the overall quality of life for those affected by dementia and other conditions.`,
+    ],
+    stack: [
+      'JavaScript',
+      'React',
+      'Node',
+      'PostgreSQL',
+    ],
+    sourceCode: 'https://github.com/Jakir9/ByteSquad-frontend-MemoryCompanion',
+    livePreview: 'https://byte-squad-frontend-memory-companion.vercel.app/',
+  },
   {
     thumbnail: '/images/messageApp.png',
     name: 'Messaging App',
